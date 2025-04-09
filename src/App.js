@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Header from './components/Header';
+import HeroBanner from './HeroBanner';
+import MenuSection from './components/MenuSection';
+import About from './components/About';
+import Footer from './components/Footer';
+import LegalMentions from './components/LegalMentions';
+import Menu from './components/Menu';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header />
+
+      <Routes>
+        {/* Page d'accueil */}
+        <Route
+          path="/"
+          element={
+            <>
+              <HeroBanner />
+              <MenuSection />
+              <About />
+            </>
+          }
+        />
+
+        {/* Autres pages */}
+        <Route path="/mentions-legales" element={<LegalMentions />} />
+        <Route path="/menu" element={<Menu />} />
+      </Routes>
+
+      <Footer />
+    </BrowserRouter>
   );
 }
 

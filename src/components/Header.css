@@ -1,0 +1,71 @@
+.header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e63946;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.burger {
+  display: block;
+  font-size: 28px;
+  cursor: pointer;
+  color: #333;
+  z-index: 1001;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100vh;
+  width: 250px;
+  background: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  display: flex;
+  transition: right 0.3s ease;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.nav.open {
+  right: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Optionnel : cache le menu burger si tu veux revenir à mode classique sur très grands écrans */
+@media (min-width: 1600px) {
+  .nav {
+    width: 300px;
+  }
+
+  .link {
+    font-size: 20px;
+  }
+}
