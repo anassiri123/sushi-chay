@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/sushi-chay/static/css/main.25696f08.css",
-    "main.js": "/sushi-chay/static/js/main.96ad4ae6.js",
+    "main.css": "/sushi-chay/static/css/main.d259f698.css",
+    "main.js": "/sushi-chay/static/js/main.e44143e3.js",
     "static/js/453.e39f83ff.chunk.js": "/sushi-chay/static/js/453.e39f83ff.chunk.js",
+    "static/media/video-sushi.mp4": "/sushi-chay/static/media/video-sushi.f66849731a5dd1932041.mp4",
+    "static/media/sushihd1.png": "/sushi-chay/static/media/sushihd1.9bb4e9c5dd7cf20754ca.png",
+    "static/media/sushihd10.png": "/sushi-chay/static/media/sushihd10.b75bb0e6d8fdb854ba92.png",
     "static/media/sushi1.jpg": "/sushi-chay/static/media/sushi1.7d83feda52a7d8470e59.jpg",
+    "static/media/sushihd5.png": "/sushi-chay/static/media/sushihd5.7d83feda52a7d8470e59.png",
     "static/media/sushi3.jpg": "/sushi-chay/static/media/sushi3.b6ca679d14a7182e43a9.jpg",
+    "static/media/sushihd4.png": "/sushi-chay/static/media/sushihd4.b6ca679d14a7182e43a9.png",
+    "static/media/sushihd8.png": "/sushi-chay/static/media/sushihd8.07b5ff6ce11478ddc362.png",
     "static/media/banier.png": "/sushi-chay/static/media/banier.e42acfc5c54941642282.png",
     "static/media/sushi4.jpg": "/sushi-chay/static/media/sushi4.683b814b73b56425b496.jpg",
+    "static/media/sushihd9.png": "/sushi-chay/static/media/sushihd9.2531ca0ba6946d950bc8.png",
     "static/media/sushi2.jpg": "/sushi-chay/static/media/sushi2.f41eea420a267db1de85.jpg",
     "index.html": "/sushi-chay/index.html",
-    "main.25696f08.css.map": "/sushi-chay/static/css/main.25696f08.css.map",
-    "main.96ad4ae6.js.map": "/sushi-chay/static/js/main.96ad4ae6.js.map",
+    "main.d259f698.css.map": "/sushi-chay/static/css/main.d259f698.css.map",
+    "main.e44143e3.js.map": "/sushi-chay/static/js/main.e44143e3.js.map",
     "453.e39f83ff.chunk.js.map": "/sushi-chay/static/js/453.e39f83ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25696f08.css",
-    "static/js/main.96ad4ae6.js"
+    "static/css/main.d259f698.css",
+    "static/js/main.e44143e3.js"
   ]
 }
