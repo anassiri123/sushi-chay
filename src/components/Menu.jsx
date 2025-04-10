@@ -4,7 +4,7 @@ import MenuSection from './MenuSection';
 const Menu = () => {
   return (
     <div>
-      <h2 style={{ textAlign: 'center', marginTop: '2rem' }}>Nos Plats</h2>
+      <h2 style={{ textAlign: 'center', marginTop: '2rem' }}>nos plat</h2>
       <MenuSection />
     </div>
   );

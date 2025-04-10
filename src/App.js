@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import Header from './components/Header';
 import HeroBanner from './HeroBanner';
@@ -11,7 +11,7 @@ import Menu from './components/Menu';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
 
       <Routes>
@@ -23,6 +23,7 @@ function App() {
               <HeroBanner />
               <MenuSection />
               <About />
+              <About />
             </>
           }
         />
@@ -33,7 +34,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

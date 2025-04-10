@@ -1,6 +1,8 @@
 import React from 'react';
 import './MenuSection.css';
+import sushiVideo from '../assets/video-sushi.mp4'; // ✅ Import de la vidéo depuis src/assets
 
+// ✅ Tableau des plats (hors composant)
 const plats = [
   {
     nom: 'Sushi Saumon',
@@ -20,27 +22,27 @@ const plats = [
   },
   {
     nom: 'Sushi Végétarien',
-    image: require('../assets/sushi4.jpg'),
+    image: require('../assets/sushihd10.png'),
   },
   {
     nom: 'Sushi Végétarien',
-    image: require('../assets/sushi4.jpg'),
+    image: require('../assets/sushihd9.png'),
   },
   {
     nom: 'Sushi Végétarien',
-    image: require('../assets/sushi4.jpg'),
+    image: require('../assets/sushihd8.png'),
   },
   {
     nom: 'Sushi Végétarien',
-    image: require('../assets/sushi4.jpg'),
+    image: require('../assets/sushihd1.png'),
   },
   {
     nom: 'Sushi Végétarien',
-    image: require('../assets/sushi4.jpg'),
+    image: require('../assets/sushihd5.png'),
   },
   {
     nom: 'Sushi Végétarien',
-    image: require('../assets/sushi4.jpg'),
+    image: require('../assets/sushihd4.png'),
   },
 ];
 
@@ -48,6 +50,7 @@ const MenuSection = () => {
   return (
     <section className="menu-section">
       <h2>Nos Plats</h2>
+
       <div className="menu-grid">
         {plats.map((plat, index) => (
           <div className="card" key={index}>
@@ -56,6 +59,21 @@ const MenuSection = () => {
             <button>Commander</button>
           </div>
         ))}
+      </div>
+
+      {/* ✅ Vidéo insérée avec style image */}
+      <div className="video-preview">
+        <video
+          src={sushiVideo}
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="video-as-image"
+          onError={(e) => {
+            console.error("❌ ERREUR VIDÉO :", e.target.error);
+          }}
+        ></video>
       </div>
     </section>
   );
