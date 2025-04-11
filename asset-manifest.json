@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sushi-chay/static/css/main.d259f698.css",
-    "main.js": "/sushi-chay/static/js/main.376f8c5b.js",
+    "main.css": "/sushi-chay/static/css/main.9bd34af0.css",
+    "main.js": "/sushi-chay/static/js/main.285087bf.js",
     "static/js/453.e39f83ff.chunk.js": "/sushi-chay/static/js/453.e39f83ff.chunk.js",
     "static/media/video-sushi.mp4": "/sushi-chay/static/media/video-sushi.f66849731a5dd1932041.mp4",
     "static/media/sushihd1.png": "/sushi-chay/static/media/sushihd1.9bb4e9c5dd7cf20754ca.png",
@@ -16,12 +16,12 @@
     "static/media/sushihd9.png": "/sushi-chay/static/media/sushihd9.2531ca0ba6946d950bc8.png",
     "static/media/sushi2.jpg": "/sushi-chay/static/media/sushi2.f41eea420a267db1de85.jpg",
     "index.html": "/sushi-chay/index.html",
-    "main.d259f698.css.map": "/sushi-chay/static/css/main.d259f698.css.map",
-    "main.376f8c5b.js.map": "/sushi-chay/static/js/main.376f8c5b.js.map",
+    "main.9bd34af0.css.map": "/sushi-chay/static/css/main.9bd34af0.css.map",
+    "main.285087bf.js.map": "/sushi-chay/static/js/main.285087bf.js.map",
     "453.e39f83ff.chunk.js.map": "/sushi-chay/static/js/453.e39f83ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d259f698.css",
-    "static/js/main.376f8c5b.js"
+    "static/css/main.9bd34af0.css",
+    "static/js/main.285087bf.js"
   ]
 }
